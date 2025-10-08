@@ -1,4 +1,4 @@
-# 🌿 Práctica 3. Modelo entidad/relacion. Viveros
+# Práctica 3. Modelo entidad/relacion. Viveros
 
 **Nombre y apellidos**: [Oscar Navarro Mesa](https://github.com/oscarnavaarro, "Enlace GitHub")
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🧩 Entidades y atributos
+## Entidades y atributos
 
 ### 1. **VIVERO**
 Representa cada centro o establecimiento de venta de Tajinaste S.A.
@@ -136,7 +136,7 @@ Entidad intermedia entre **PEDIDO** y **PRODUCTO**.
 
 ---
 
-## 🔗 Relaciones y cardinalidades
+## Relaciones y cardinalidades
 
 | Relación | Entidades implicadas | Cardinalidad | Descripción |
 |-----------|----------------------|---------------|--------------|
@@ -152,7 +152,7 @@ Entidad intermedia entre **PEDIDO** y **PRODUCTO**.
 
 ---
 
-## ⚙️ Restricciones semánticas
+## Restricciones semánticas
 
 1. **No solapamiento de destinos de empleados**
    > Para cada empleado, los intervalos de fechas (`fecha_inicio`, `fecha_fin`) en la entidad `HISTORICO_EMPLEADO` **no pueden solaparse**.  
